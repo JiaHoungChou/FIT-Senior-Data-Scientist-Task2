@@ -129,7 +129,7 @@ The `model_weights` directory is created automatically by the script.
 Run:
 
 ```bash
-python train-pred-source-target-domain.py
+python main.py
 ```
 
 
