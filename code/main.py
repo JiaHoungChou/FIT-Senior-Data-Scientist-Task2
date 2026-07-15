@@ -222,5 +222,4 @@ if __name__== "__main__":
         class_logits, _, _= model(xt, grl_lambda= grl_lambd)
         pred_label= torch.nn.functional.log_softmax(class_logits, -1).argmax(dim= 1).detach().cpu()+ 1
     pred_res= pd.DataFrame({"cycle_id": [i for i in range(1, len(pred_label)+ 1)], "predicted_label": pred_label.detach().cpu().numpy().tolist()})
-    pred_res.to_csv(os.path.join(os.getcwd(), "results", "•	predictions_test.csv"), index= False)
-    print(pred_res)
+    pred_res.to_csv(os.path.join(os.getcwd(), "results", "predictions_test.csv"), index= False)
