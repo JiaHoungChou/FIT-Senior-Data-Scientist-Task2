@@ -55,14 +55,13 @@ MyTask2/
 │   ├── data_pdmp3.csv
 │   └── data_po3.csv
 │
-├── results/
-│
-├── model_weights/
-│
 ├── code/
     ├── models.py
     ├── train-valid-source_domain.py
-    └── train-pred-source-target-domain.py
+    ├── train-pred-source-target-domain.py
+    ├── results/
+    └── model_weights/
+
 ```
 
 Before running either script, move into the code directory:
