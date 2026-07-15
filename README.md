@@ -55,7 +55,7 @@ MyTask2/
 │   ├── data_pdmp3.csv
 │   └── data_po3.csv
 │
-├── code/
+└── code/
     ├── models.py
     ├── train-valid-source_domain.py
     ├── train-pred-source-target-domain.py
